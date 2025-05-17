@@ -1,1 +1,1 @@
-# Creating car sales Ads with some visualization using streamlit, pandas, and plotly. Will be Deploying the app using the Render web app service.
+# Creating car sales Ads with some visualization using the streamlit service with the following modlues, pandas, plotly, altair and matplotlib. The App will Deployed by using the Render web app service.
