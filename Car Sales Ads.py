@@ -6,3 +6,5 @@ import seaborn as sns
 import plotly.express as px
 import altair as alt
 from PIL import Image
+
+# Set page configuration
