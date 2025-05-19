@@ -15,6 +15,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 # Load data
-@st.cache_data
-def load_data():
-    return pd.read_csv("vehicles_ads.csv")
+@st.cache_resource
+def load_model():
+    # Load your model here
+    return pd.read_csv("vehicles_us.csv")
