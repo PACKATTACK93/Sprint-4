@@ -1,8 +1,8 @@
 [server]
 headless = true
-port = 8501
+port = 8502
 
 [browser]
 enableCORS = false
-serverAddress = localhost:8501
-serverPort = 8501
+serverAddress = localhost:8502
+gatherUsageStats = false
