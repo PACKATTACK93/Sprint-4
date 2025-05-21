@@ -52,9 +52,9 @@ fig1 = px.scatter(filtered_df, x='days_listed', y='price', color='condition',
 st.plotly_chart(fig1, use_container_width=True)
 
 # Scatter plot: Model Year vs Price
-fig2 = px.scatter(filtered_df, x='model_year', y='price', color='fuel',
-                  title='📉 Price vs Model Year', hover_data=['make', 'model'])
-st.plotly_chart(fig2, use_container_width=True)
+# fig2 = px.scatter(filtered_df, x='model_year', y='price', color='fuel',
+# title='📉 Price vs Model Year', hover_data=['make', 'model'])
+#st.plotly_chart(fig2, use_container_width=True)
 
 # Histogram: Price distribution
 fig3 = px.histogram(filtered_df, x='price', nbins=30, title='💰 Price Distribution', color='condition')
